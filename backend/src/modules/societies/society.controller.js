@@ -153,3 +153,17 @@ export async function joinSociety(req, res) {
         handleServerError(res, error, "joinSociety");
     }
 }
+
+export async function postProfileSociety(req, res) {
+    try {
+        const images = req.images;
+        console.log("Image link:"+images[0]);
+        const societyId = req.params.id;
+        const society = await Society.findById(societyId);
+        society.profilePhoto = images[0];
+        await society.save();
+        res.status(200).json({ success: true,data:society, message: "Profile Photo of Society was updated successfully." });
+    } catch (error) {
+        handleServerError(res, error, "joinSociety");
+    }
+}

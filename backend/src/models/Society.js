@@ -13,6 +13,9 @@ const societySchema = new mongoose.Schema({
         required: true,
         unique: true,
     },
+    profilePhoto: {
+        type: String,
+    },
     members: [
         {
             type: mongoose.Schema.Types.ObjectId,
