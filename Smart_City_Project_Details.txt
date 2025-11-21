@@ -1,0 +1,71 @@
+Project Title:
+CityPulse: An AI-Driven Smart Companion for Urban Living
+
+Problem Statement:
+In rapidly growing cities like Gorakhpur, citizens juggle multiple fragmented apps and systems just to meet everyday needs — reporting a pothole, finding an electrician, renting a room, sharing leftover food, or even checking if a road is blocked due to construction. 
+This disjointed approach leads to wasted time, poor coordination, food wastage, delayed emergency responses, and weak community participation.
+What’s missing is a unified, intelligent platform that not only connects citizens, service providers, communities, and city officials but also uses AI to predict, recommend, and simplify urban living — turning a complex city into a responsive, people-first ecosystem.
+
+Features:
+1. City Issue Tracker
+   - Report problems (potholes, leaks, streetlights).
+   - AI categorization & clustering.
+   - Escalation to city authorities with live map.
+
+2. Food & Resource Sharing
+   - Share leftover food, furniture, books.
+   - Notify NGOs & volunteers.
+
+3. Community Hub
+   - Housing societies, colleges, NGOs form groups.
+   - Posts, polls, events, AI digests.
+
+4. Marketplace + Renting
+   - Buy/sell second-hand items.
+   - Room rentals with secure chat & payments.
+
+5. On-Demand Services
+   - Book electricians, plumbers, tutors.
+   - Ratings & availability tracking.
+
+6. Emergency Help Layer
+   - One-tap SOS (ambulance, fire, police).
+   - Auto location sharing + AI first-aid tips.
+
+7. News & Alerts
+   - Real-time traffic, weather, city notices.
+   - Local Gorakhpur news + AI summaries.
+
+8. Events & Volunteering
+   - Festivals, donation drives, hackathons.
+   - RSVP + smart recommendations.
+
+9. Gamification & Transparency
+   - Badges, leaderboards, reputation system.
+   - Public dashboard for issue resolution status.
+
+Tech Stack:
+- Frontend: React + Tailwind + ShadCN
+- Backend: Node.js + Express
+- Database: MongoDB Atlas
+- AI Layer: Google Gemini Flash (classification, summarization, moderation)
+- Realtime: Socket.IO
+- Cache: Redis
+- Deployment: Docker + Vercel + Railway/Render
+- APIs: OpenWeatherMap, Google/Mapbox, NewsAPI
+
+Business Model:
+1. Freemium citizen access (core free features).
+2. Commission on services (10–15%).
+3. Premium marketplace listings.
+4. Community subscriptions (analytics, dashboards).
+5. Government partnerships (urban insights).
+6. CSR/NGO tie-ups for food/resource sharing.
+7. Local business advertising.
+
+Impact:
+- Simplifies urban living in one app.
+- Reduces food waste, supports NGOs.
+- Builds stronger local communities.
+- Faster emergency & issue resolution.
+- Provides real-world scalable model for Smart Cities.
